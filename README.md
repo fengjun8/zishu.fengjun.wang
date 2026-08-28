@@ -136,8 +136,6 @@ server {
 }
 ```
 
-> 注：仓库中保留了原部署环境的 `.user.ini`、`.htaccess` 等宝塔面板遗留文件，与 Next.js 应用运行无直接关系，部署时可按需删除。
-
 ### 方式三：纯静态导出（可选）
 
 本项目以客户端组件为主，如无需 SSR，可在 `next.config.mjs` 中加入 `output: 'export'`，`pnpm build` 后把 `out/` 目录部署到任意静态托管（如 GitHub Pages、对象存储）。
@@ -148,6 +146,30 @@ server {
 - **修改文本处理逻辑**：编辑 `lib/text-processor.ts`；
 - **修改站点标题/描述（SEO）**：编辑 `app/layout.tsx` 中的 `metadata`；
 - **移除统计代码**：删除 `app/layout.tsx` 中的 `Baidu Analytics` `<Script>` 片段。
+
+## 🔗 更多在线工具
+
+以下是同系列的其他免费在线工具，欢迎体验：
+
+- [Country Drawing](https://countrydrawing.com/)
+- [Subway Calorie Calculator](https://subwaycalculator.com/)
+- [Starbucks Nutrition Calculator](https://starbucksnutritioncalculator.app/)
+- [Cooking Calculator](https://cookingcalculator.app/)
+- [Bitumen Calculator](https://bitumencalculator.world)
+- [Car Logos](https://carbrandindex.com)
+- [Calculate the CPM](https://cpmcalculator.world)
+- [Electricity Bill Calculator](https://wattly.world)
+- [Market Hours](https://markethours.io)
+- [Favicon Generator](https://favicon.pub)
+- [Email Testing Tools](https://emailtoolbox.io)
+- [Morse Code Translator](https://mingle-mangle.com)
+- [Password Remover](https://passwordremover.org)
+- [Regex Cheat Sheet](https://regexbox.com/cheatsheet)
+- [Free Barcode Generator](https://barcode.best/)
+- [Free Online PDF Tools](https://pdf.fj.cn)
+- [Fast Chart](https://fastchart.org/)
+- [Refnet](https://refnet.dev/)
+- [Symbol](https://symbol.blog)
 
 ## 📄 许可证
 
